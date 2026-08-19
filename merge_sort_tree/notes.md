@@ -94,4 +94,10 @@ int main()
 2.
 
 # Complexity
+Time:
+1. Build: O(nlogn),
+2. Query: O(log<sup>2</sup>n)
+
+Space: 
+ O(nlogn);
 
