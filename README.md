@@ -1,7 +1,7 @@
 # [Data Structures & Algorithms](https://github.com/hemant-ingle/dsa-notes/blob/main/README.md)
 
 | #  | 🧪 Problem | 💻 Platform | 🏷️ Topic | 🧩 Concept | 💡 Insight | 📚 Reference | 📝 Notes | 🔁 Redo |
-|---:|:----------:|:------------:|:--------:|:-----------:|------------|:-------------:|:-----:|
+|---:|:----------:|:------------:|:--------:|:-----------:|------------|:-------------:|:--------:|:--------:|
 | 01.| | | `Array` <br> `Dynamic Programming` | Kadane Algorithm | | | | |
 | 02.| | | `Graph` | Topological Sort - Kahn Algorithm | | | | |
 | 03.| | | `Array` <br> `Prefix Sum` | Prefix Sum | | | | |
