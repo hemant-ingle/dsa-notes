@@ -1,4 +1,4 @@
-🔴 Redo - concept/problem is not solid
-🟡 Review - mostly understood, but needs another attempt
-🟢 Done - can solve independently
-⭐ Mastered - can solve quickly and explain the idea
+- 🔴 Redo - concept/problem is not solid
+- 🟡 Review - mostly understood, but needs another attempt
+- 🟢 Done - can solve independently
+- ⭐ Mastered - can solve quickly and explain the idea
