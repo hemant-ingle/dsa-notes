@@ -1,4 +1,4 @@
-# Data Structures & Algorithms
+# [Data Structures & Algorithms](https://github.com/hemant-ingle/dsa-notes/blob/main/README.md)
 
 | #  | 🧪 Problem | 💻 Platform | 🏷️ Topic | 🧩 Concept | 💡 Insight | 📚 Reference | 📝 Notes |
 |---:|:----------:|:------------:|:--------:|:-----------:|------------|:-------------:|:-----:|
