@@ -13,7 +13,7 @@ struct Node  {
 7. Finding subsegments with the maximal sum
 
 
-Saving the entire subarrays in each vertex
+Saving the entire subarrays in each vertex (Merge Sort Tree)
 1. Find the smallest number greater or equal to a specified number. No modification queries
 2. Find the smallest number greater or equal to a specified number. With modification queries
 3. Find the smallest number greater or equal to a specified number. Acceleration with "fractional cascading".
