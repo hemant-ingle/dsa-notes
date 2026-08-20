@@ -1,7 +1,7 @@
 # Merge Sort Tree
 
 # Classic Problem: 
-[K Query (SPOJ)] ()
+**[K Query (SPOJ)](https://www.spoj.com/problems/KQUERY/)** :repeat:
 
 # Related Problems:
 ├── Count elements > X

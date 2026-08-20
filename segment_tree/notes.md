@@ -4,7 +4,8 @@
 **[Dynamic Range Sum Queries (CSES)](https://cses.fi/problemset/task/1648/)**
 
 # Related Problems:
-1. **[SPOJ ~ GSS3 - Can you answer these queries III](https://www.spoj.com/problems/GSS3/)** Solution:  [:link:](related_problems/spoj/gss3/sol.md)
+1. **[SPOJ ~ GSS1 - Can you answer these queries I](https://www.spoj.com/problems/GSS1/)** Solution:  [:link:](related_problems/spoj/gss1/sol.md) :repeat:
+1. **[SPOJ ~ GSS3 - Can you answer these queries III](https://www.spoj.com/problems/GSS3/)** Solution:  [:link:](related_problems/spoj/gss3/sol.md) :repeat:
 
 
 # Core Idea
