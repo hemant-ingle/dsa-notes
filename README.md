@@ -2,7 +2,7 @@
 
 | #   | 🧪 Problem | 💻 Platform | 🏷️ Topic | 🧩 Concept | 💡 Insight | 📚 Reference | 📝 Notes | 🔁 Redo |
 |----:|:----------:|:------------:|:--------:|:-----------:|------------|:-------------:|:--------:|:--------:|
-| 01. | | | `Number Theory` | Euclid GCD | | | | |
+| 01. | | | `Number Theory` | Euclid GCD | | [CP Algorithms](https://cp-algorithms.com/algebra/euclid-algorithm.html) | | |
 | 02. | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | Leetcode | `Array; Dynamic Programming` | Kadane Algorithm | Maximum Subarray Sum | | [:link:](kadane_algorithm/notes.md) | 🟢 Done |
 | 03. | [Topological Sort](https://www.geeksforgeeks.org/problems/topological-sort/1) | GeeksforGeeks | `Graph` | Topological Sort - Kahn Algorithm | | | [:link:](kahn_algorithm/notes.md) | 🟢 Done |
 | 04. | | | `Array; Prefix Sum` | Prefix Sum | | | | |
