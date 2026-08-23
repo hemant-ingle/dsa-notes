@@ -35,6 +35,7 @@ private:
     const int INF = 1e9;
 public:
     int maxSubArray(vector<int>& nums) {
+        if(nums.size() == 0) return 0;
         int best = -INF;
         int curr = 0;
         for(int x: nums) {
