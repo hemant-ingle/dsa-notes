@@ -7,7 +7,6 @@ The key idea is to maintain the maximum subarray sum ending at the current posit
 **[Maximum Subarray (Leetcode)](https://leetcode.com/problems/maximum-subarray/description/)**
 
 ## Related Problems
-1. 
 
 ## Core Idea
 For every element x, there are only two possibilities:
