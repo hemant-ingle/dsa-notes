@@ -29,7 +29,7 @@ $$\text{curr} = \max(x,\ \text{curr} + x)$$
 
 If the previous curr is negative, extending it only makes the sum smaller, so we start a new subarray.
 
-# Implementation (Classic Problem)
+## Implementation (Classic Problem)
 ```cpp
 class Solution {
 private:
@@ -47,7 +47,7 @@ public:
 };
 ```
 
-# Notes (Important Lines)
+## Notes (Important Lines)
 1. ```curr = max(x, curr + x)```
 This is the core of Kadane's Algorithm.
 
