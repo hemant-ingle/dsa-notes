@@ -25,13 +25,9 @@ best = maximum subarray sum found so far
 
 The recurrence is:
 
-*$$
-\text{curr} = \max(x,\ \text{curr} + x)
-$$*
+$$\text{curr} = \max(x,\ \text{curr} + x)$$
 
 If the previous curr is negative, extending it only makes the sum smaller, so we start a new subarray.
-
-# Structure and Images
 
 # Implementation (Classic Problem)
 ```cpp
@@ -52,10 +48,47 @@ public:
 ```
 
 # Notes (Important Lines)
+1. ```curr = max(x, curr + x)```
+This is the core of Kadane's Algorithm.
 
+It answers:
+> Should I continue the previous subarray or start a new subarray here?
 
-# Complexity
-Time: O(n)
+2. ```best = max(best, curr)```
+curr represents the best subarray ending here, while best represents the best subarray seen anywhere so far
 
-Space: O(1)
+3. Why `curr` starts at `0`
+This works because the first iteration computes:
+```cpp
+curr = max(nums[0], 0 + nums[0]);
+```
+which becomes:
+```cpp
+curr = nums[0];
+```
+So the implementation also correctly handles all-negative arrays.
+
+For example:
+```
+[-5, -2, -8]
+
+curr:
+-5 → -2 → -8
+
+best = -2
+```
+
+4. Why `best` starts at `-INF`
+We cannot initialize best to 0, because the answer can be negative.
+
+For:
+```
+[-5, -2, -8]
+```
+he correct answer is `-2` not `0`.
+
+## Complexity
+**Time Complexity**: *O(n)*
+
+**Space Complexity**: *O(1)*
 
