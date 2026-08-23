@@ -57,7 +57,7 @@ class Solution {
     vector<int> topoSort(int V, vector<vector<int>>& edges) {
         
         vector<vector<int>> adj(V, vector<int>());
-        for(auto edge: edges) {
+        for(auto &edge: edges) {
             int u = edge[0];
             int v = edge[1];
             adj[u].push_back(v);
