@@ -5,7 +5,7 @@ A BFS technique to find topological sort of a DAG
 **[Topological Sort (GeeksforGeeks)](https://www.geeksforgeeks.org/problems/topological-sort/1)**
 
 # Related Problems:
-1. **[SPOJ ~ TOPOSORT - Topological Sorting](https://www.spoj.com/problems/TOPOSORT/)** [:link:]()
+1. **[SPOJ ~ TOPOSORT - Topological Sorting](https://www.spoj.com/problems/TOPOSORT/)** [:link:](related_problems/spoj/toposort/sol.md)
 
 
 # Core Idea

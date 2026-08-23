@@ -2,7 +2,7 @@
 
 | #  | 🧪 Problem | 💻 Platform | 🏷️ Topic | 🧩 Concept | 💡 Insight | 📚 Reference | 📝 Notes | 🔁 Redo |
 |---:|:----------:|:------------:|:--------:|:-----------:|------------|:-------------:|:--------:|:--------:|
-| 01.| | | `Array; Dynamic Programming` | Kadane Algorithm | | | | |
+| 01.| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | Leetcode | `Array; Dynamic Programming` | Kadane Algorithm | Maximum Subarray Sum | | [:link:](kadane_algorithm/notes.md) | 🟢 Done |
 | 02.| [Topological Sort](https://www.geeksforgeeks.org/problems/topological-sort/1) | GeeksforGeeks | `Graph` | Topological Sort - Kahn Algorithm | | | [:link:](kahn_algorithm/notes.md) | 🟢 Done |
 | 03.| | | `Array; Prefix Sum` | Prefix Sum | | | | |
 | 04.| | | `Number Theory ; Prime Numbers` | Sieve of Eratosthenes | | | | |
