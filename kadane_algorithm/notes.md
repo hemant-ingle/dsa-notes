@@ -89,6 +89,4 @@ he correct answer is `-2` not `0`.
 
 ## Complexity
 **Time Complexity**: *O(n)*
-
 **Space Complexity**: *O(1)*
-
