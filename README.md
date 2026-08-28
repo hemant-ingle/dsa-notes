@@ -4,7 +4,7 @@
 |----:|:----------:|:------------:|:--------:|:-----------:|------------|:-------------:|:--------:|:--------:|
 | 01. | | | `Number Theory` | **Euclid GCD** | | [CP Algorithms](https://cp-algorithms.com/algebra/euclid-algorithm.html) | | |
 | 02. | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | Leetcode | `Array; Dynamic Programming` | **Kadane Algorithm** | Maximum Subarray Sum | | [:link:](kadane_algorithm/notes.md) | 🟢 Done |
-| 03. | [Topological Sort](https://www.geeksforgeeks.org/problems/topological-sort/1) | GeeksforGeeks | `Graph` | Topological Sort - Kahn Algorithm | | | [:link:](kahn_algorithm/notes.md) | 🟢 Done |
+| 03. | [Topological Sort](https://www.geeksforgeeks.org/problems/topological-sort/1) | GeeksforGeeks | `Graph` | **Topological Sort - Kahn Algorithm** | | | [:link:](kahn_algorithm/notes.md) | 🟢 Done |
 | 04. | | | `Array; Prefix Sum` | **Prefix Sum** | | | | |
 | 05. | [TDPRIMES - Printing some primes](https://www.spoj.com/problems/TDPRIMES/) | SPOJ | `Number Theory ; Prime Numbers` | **Sieve of Eratosthenes** | | [CP Algorithms](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html) | [:link:](sieve_of_eratosthenes/notes.md) | 🟡 Review |
 | 06. | | | `Divide and Conquer; Sorting` | **Divide and Conquer - Merge Sort** | | | | |
