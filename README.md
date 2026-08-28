@@ -11,7 +11,7 @@
 | 07. | | | `Divide and Conquer; Searching` | **Binary Search** | | | | |
 | 08. | | | `Searching` | **Lower Bound** | | | | |
 | 09. | | | `Searching` | **Upper Bound** | | | | |
-| 10. | | | `String; Tree` | Trie | | | | |
+| 10. | | | `String; Tree` | **Trie** | | | | |
 | 11. | [Dynamic Range Sum Queries](https://cses.fi/problemset/task/1648) | CSES | `Tree; Range Query` | **Segment Tree** | | [CP Algorithms](https://cp-algorithms.com/data_structures/segment_tree.html) | [:link:](segment_tree/notes.md) | 🟡 Review |
 | 12. | [K-query](https://www.spoj.com/problems/KQUERY/) | SPOJ | `Segment Tree; Range Query; Sorting` | **Merge Sort Tree** | Count elements `> k` by searching sorted node vectors | [CP Algorithms](https://cp-algorithms.com/data_structures/segment_tree.html#saving-the-entire-subarrays-in-each-vertex) | [:link:](merge_sort_tree/notes.md) | 🟡 Review |
 | 13. | | | `Number Theory; Divide and Conquer` | **Binary Exponentiation** | | | | |
