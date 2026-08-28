@@ -22,9 +22,7 @@ Where:
 curr = maximum sum of a subarray ending at the current element
 best = maximum subarray sum found so far
 
-The recurrence is:
-
-***curr = max(x, curr + x)***
+The recurrence is: ***curr = max(x, curr + x)***
 
 <!-- $$\text{curr} = \max(x,\ \text{curr} + x)$$ -->
 
