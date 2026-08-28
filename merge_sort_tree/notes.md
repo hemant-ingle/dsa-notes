@@ -1,5 +1,4 @@
-# Merge Sort Tree
-
+# Merge Sort Tree (A variant of Segment Tree)
 # Classic Problem: 
 **[K Query (SPOJ)](https://www.spoj.com/problems/KQUERY/)** :repeat:
 
