@@ -24,7 +24,9 @@ best = maximum subarray sum found so far
 
 The recurrence is:
 
-$$\text{curr} = \max(x,\ \text{curr} + x)$$
+***curr = max(x, curr + x)***
+
+<!-- $$\text{curr} = \max(x,\ \text{curr} + x)$$ -->
 
 If the previous curr is negative, extending it only makes the sum smaller, so we start a new subarray.
 
