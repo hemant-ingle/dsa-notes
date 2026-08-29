@@ -42,7 +42,7 @@ The important part is that the same string can be reused. We modify the current 
 ```cpp
 class Solution {
     private:
-    void binaryStrings(int i, string &s, vector<string> &results) {
+    void binaryStrings(string &s, int i, vector<string> &results) {
         if(i == s.size()) {
             results.push_back(s); /* insert a copy of s string to results vector */
             return;
@@ -50,14 +50,14 @@ class Solution {
         vector<char> choices{'0', '1'};
         for(auto choice: choices) {
             s[i] = choice;
-            binaryStrings(i + 1, s, results);
+            binaryStrings(s, i + 1, results);
         }
     }
     public:
     vector<string> binstr(int n) {
         vector<string> results;
         string s(n, ' '); /* n spaces */
-        binaryStrings(0, s, results);
+        binaryStrings(s, 0, results);
         return results;
     }
 };
