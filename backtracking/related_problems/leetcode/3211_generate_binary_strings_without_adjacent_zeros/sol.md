@@ -1,7 +1,4 @@
-## Complexity
-**Time Complexity:** *O(2<sup>n</sup>)* <br>
-**Space Complexity:** *O(n)* <br>
-**Output Space:** *O(n x 2<sup>n</sup>)* <br>
+# [←](backtracking/notes.md) [Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)
 
 ## Backtracking Flow
 
@@ -34,3 +31,8 @@ public:
     }
 };
 ```
+
+## Complexity
+**Time Complexity:** *O(2<sup>n</sup>)* <br>
+**Space Complexity:** *O(n)* <br>
+**Output Space:** *O(n x 2<sup>n</sup>)* <br>
