@@ -2,7 +2,7 @@
 A technique used to precompute cumulative sums so that the sum of any contiguous subarray/range can be calculated in **O(1)** time.
 
 ## Classic Problem 
-**[CSUMQ - Cumulative Sum Query (SPOJ)](https://www.spoj.com/problems/CSUMQ/)**
+**[Cumulative Sum Query (SPOJ)](https://www.spoj.com/problems/CSUMQ/)**
 
 ## Related Problems
 - Range Sum Query - Immutable (LeetCode 303)
