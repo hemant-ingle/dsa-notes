@@ -1,7 +1,7 @@
 ## Complexity
 **Time Complexity:** *O(2<sup>n</sup>)* <br>
 **Space Complexity:** *O(n)* <br>
-**Output Space:** *O(n x 2<sup>n</sup>) <br>
+**Output Space:** *O(n x 2<sup>n</sup>)* <br>
 
 ## Backtracking Flow
 
