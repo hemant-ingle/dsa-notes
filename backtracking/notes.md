@@ -73,7 +73,8 @@ class Solution {
 ## Complexity
 **Time Complexity**: *O(n × 2<sup>n</sup>)* <br>
 There are `2ⁿ` binary strings, and copying each complete string into `results` takes `O(n)`. <br>
+
 **Space Complexity**: *O(n)* auxiliary space <br>
 - `O(n)` for the current string.
-- `O(n)` recursion stack.
+- `O(n)` recursion stack. <br>
 The output itself requires `O(n × 2ⁿ)` space.
