@@ -6,7 +6,7 @@ Backtracking is a systematic way of exploring all possible choices by building a
 
 ## Related Problems
 | #   | Problem | Platform | Solution | Redo |
-|----:|:----------:|:------------:|:--------:|:-----------:|------------|:-------------:|:--------:|:--------:|
+|----:|:-------:|:--------:|:--------:|:----:|
 | 01. | **[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)** | LeetCode | [:link:](backtracking/related_problems/leetcode/3211_generate_binary_strings_without_adjacent_zeros/sol.md) | 🟡 Review |
 | 02. | Generate all subsets | | | |
 | 03. | Generate all permutations | | | |
