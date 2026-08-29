@@ -25,9 +25,9 @@ private:
         }
 
         for(int i = start; i <= end; i++) {
-            current.push_back(i);
-            backtrack(i + 1, end, k, current, results);
-            current.pop_back();
+            current.push_back(i); /* make choice */
+            backtrack(i + 1, end, k, current, results); /* recurse */
+            current.pop_back(); /* undo choice */
         }
     }
 public:
