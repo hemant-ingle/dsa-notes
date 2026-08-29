@@ -7,14 +7,15 @@ Backtracking is a systematic way of exploring all possible choices by building a
 ## Related Problems
 | #   | Problem | Platform | Solution | Redo |
 |----:|:-------:|:--------:|:--------:|:----:|
-| 01. | **[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)** | **LeetCode** | [:link:](related_problems/leetcode/3211_generate_binary_strings_without_adjacent_zeros/sol.md) | 🟡 Review |
-| 02. | **[Subsets](https://leetcode.com/problems/subsets/description/)** | **LeetCode** | [:link:](related_problems/leetcode/78_subsets/sol.md) | 🟡 Review |
-| 03. | Generate all permutations | | | |
-| 04. | Generate all combinations | | | |
-| 05. | Combination Sum | | | |
-| 06. | Maze / Grid Backtracking | | | |
-| 07. | N-Queens | | | |
-
+| 01. | **[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)** | **LeetCode** | [:link:](related_problems/leetcode/3211_generate_binary_strings_without_adjacent_zeros/sol.md) | 🟡 |
+| 02. | **[Subsets](https://leetcode.com/problems/subsets/description/)** | **LeetCode** | [:link:](related_problems/leetcode/78_subsets/sol.md) | 🟡 |
+| 03. | **[Permutations](https://leetcode.com/problems/permutations/description/)** | **LeetCode** | [:link:](related_problems/leetcode/46_permutations/sol.md) | 🟡 |
+| 04. | **[Combinations](https://leetcode.com/problems/combinations/description/)** | **LeetCode** | [:link:](related_problems/leetcode/77_combinations/sol.md) | 🟡 |
+| 05. | **[Combination Sum](https://leetcode.com/problems/combination-sum/description/)** | **LeetCode** | [:link:](related_problems/leetcode/39_combination_sum/sol.md) | 🟡 |
+| 06. | **[Maze / Grid Backtracking]()** | **** | [:link:](related_problems/leetcode//sol.md) | 🟡 |
+| 07. | **[Unique Paths](https://leetcode.com/problems/unique-paths/description/)** | **LeetCode** | [:link:](related_problems/leetcode/62_unique_paths/sol.md) | 🟡 |
+| 08. | **[N-Queens](https://leetcode.com/problems/n-queens/description/)** | **LeetCode** | [:link:](related_problems/leetcode/51_n_queens/sol.md) | 🟡 |
+| 09. | **[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)** | **LeetCode** | [:link:](related_problems/leetcode/22_generate_parentheses/sol.md) | 🟡 |
 
 ## Core Idea
 At every position, there are two possible choices:
