@@ -71,5 +71,9 @@ class Solution {
 5. No explicit undo/reset is required here because `s[i]` is overwritten by the next choice.
 
 ## Complexity
-**Time Complexity**: *O(2<sup>n</sup>)*
-**Space Complexity**: *O(n) + O(Recursion Stack)*
+**Time Complexity**: *O(n × 2<sup>n</sup>)* <br>
+There are `2ⁿ` binary strings, and copying each complete string into `results` takes `O(n)`. <br>
+**Space Complexity**: *O(n)* auxiliary space <br>
+- `O(n)` for the current string.
+- `O(n)` recursion stack.
+The output itself requires `O(n × 2ⁿ)` space.
