@@ -39,6 +39,7 @@ Choose the next option
 The important part is that the same string can be reused. We modify the current position before making the recursive call.
 
 ## Implementation (Classic Problem)
+### Implementaion 1
 ```cpp
 class Solution {
     private:
@@ -63,12 +64,89 @@ class Solution {
 };
 ```
 
+### Implementaion 2
+```cpp
+/*
+Backtracking Flow: 
+    choices → constraint → make choice → recurse → undo
+
+choices     → '0' / '1'
+constraint  → none
+make choice → current.push_back(choice)
+recurse     → i + 1
+undo        → current.pop_back()
+*/
+
+class Solution {
+    private:
+    void binaryStrings(int n, int i,string &current, vector<string> &results) {
+        if(i == n) {
+            results.push_back(current);
+            return;
+        }
+        
+        /* Take '0' */
+        current.push_back('0'); /* make choice */
+        binaryStrings(n, i+1, current, results); /* recurse */
+        current.pop_back(); /* undo choice */
+        
+        current.push_back('1'); /* make choice */
+        binaryStrings(n, i+1, current, results); /* recurse */
+        current.pop_back(); /* undo choice */ /* very important */
+    }
+    public:
+    vector<string> binstr(int n) {
+        vector<string> results;
+        string current;
+        binaryStrings(n, 0, current, results);
+        return results;
+    }
+};
+```
+
 ## Notes (Important Lines)
+### Implementation 1
 1. `i` represents the position currently being decided.
 2. `s[i] = choice` makes a choice for the current position.
 3. `binaryStrings(i + 1, s, results)` explores all possibilities after that choice.
 4. When `i == s.size()`, the string is complete, so we add a copy to `results`.
 5. No explicit undo/reset is required here because `s[i]` is overwritten by the next choice.
+
+### Implementation 2
+1, `i` represents the number of positions already decided.
+2. current stores the partial string built so far.
+3. `current.push_back('0')` makes the choice `0`.
+4. `binaryStrings(n, i + 1, current, results)` recursively explores all strings that can be formed after choosing `0`.
+5. `current.pop_back()` undoes the `0` choice, restoring `current` to the state it had before that choice.
+6. `current.push_back('1')` makes the next choice `1`.
+7. The recursive call explores all possibilities after choosing `1`.
+8. The final `current.pop_back()` undoes the `1` choice. This is important because the function must restore `current` before returning to its caller.
+9. When `i == n`, all `n` positions have been decided, so `current` represents a complete binary string and we add a copy to `results`.
+10. The key backtracking pattern is:
+```
+make choice
+    ↓
+recurse
+    ↓
+undo choice
+```
+
+For this problem, the recursion tree is essentially:
+```
+              ""
+           /      \
+         "0"      "1"
+        /  \      /  \
+      "00" "01" "10" "11"
+       ...         ...
+```
+**The important distinction between the two implementations:**
+
+- **Implementation 1:** modifies a fixed position → the next choice overwrites the previous choice, so explicit undo is unnecessary.
+- **Implementation 2:** grows the string using push_back() → the previous choice remains in the string, so it must be explicitly removed using pop_back().
+
+So the real lesson is:
+> **Backtracking requires restoring the state whenever your choice permanently changes the shared state.**
 
 ## Complexity
 **Time Complexity**: *O(n × 2<sup>n</sup>)* <br>
