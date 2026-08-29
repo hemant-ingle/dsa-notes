@@ -1,4 +1,4 @@
-# [←](/hemant-ingle/dsa-notes/blob/main/backtracking/notes.md) [Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)
+# [←](/backtracking/notes.md) [Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)
 
 ## Backtracking Flow
 
