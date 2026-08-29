@@ -5,13 +5,15 @@ Backtracking is a systematic way of exploring all possible choices by building a
 **[ Generate all binary strings (GeeksforGeeks)](https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1)**
 
 ## Related Problems
-- **[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)** [:link:](backtracking/related_problems/leetcode/3211_generate_binary_strings_without_adjacent_zeros/sol.md)
-- Generate all subsets
-- Generate all permutations
-- Generate all combinations
-- Combination Sum
-- Maze / Grid Backtracking
-- N-Queens
+| #   | Problem | Platform | Solution | Redo |
+|----:|:----------:|:------------:|:--------:|:-----------:|------------|:-------------:|:--------:|:--------:|
+| 01. | **[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)** | LeetCode | [:link:](backtracking/related_problems/leetcode/3211_generate_binary_strings_without_adjacent_zeros/sol.md) | 🟡 Review |
+| 02. | Generate all subsets | | | |
+| 03. | Generate all permutations | | | |
+| 04. | Generate all combinations | | | |
+| 05. | Combination Sum | | | |
+| 06. | Maze / Grid Backtracking | | | |
+| 07. | N-Queens | | | |
 
 
 ## Core Idea
