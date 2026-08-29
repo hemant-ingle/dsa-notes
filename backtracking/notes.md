@@ -7,8 +7,8 @@ Backtracking is a systematic way of exploring all possible choices by building a
 ## Related Problems
 | #   | Problem | Platform | Solution | Redo |
 |----:|:-------:|:--------:|:--------:|:----:|
-| 01. | **[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)** | LeetCode | [:link:](related_problems/leetcode/3211_generate_binary_strings_without_adjacent_zeros/sol.md) | 🟡 Review |
-| 02. | Generate all subsets | | | |
+| 01. | **[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)** | **LeetCode** | [:link:](related_problems/leetcode/3211_generate_binary_strings_without_adjacent_zeros/sol.md) | 🟡 Review |
+| 02. | **[Subsets](https://leetcode.com/problems/subsets/description/)** | **LeetCode** | [:link:](related_problems/leetcode/78_subsets/sol.md) | 🟡 Review |
 | 03. | Generate all permutations | | | |
 | 04. | Generate all combinations | | | |
 | 05. | Combination Sum | | | |
