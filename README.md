@@ -205,3 +205,4 @@ Sweep Line
 | 14. | | | `Number Theory; Divide and Conquer` | **Binary Exponentiation** | | | | |
 | 15. | | | `Hash Map; Doubly Linked List` | **LRU Cache** | | | | |
 | 16. | | | | **LFU Cache** | | | | |
+| 17. | [Generate all binary strings](https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1) | GeeksforGeeks | `Recursion; Backtacking` | **Backtracking** | | | [:link:](backtracking/notes.md) | 🟡 Review | 
