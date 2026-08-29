@@ -59,5 +59,5 @@ There are `n!` permutations, and copying each complete permutation into `results
 **Space Complexity:** *O(n)* <br>
 The recursion depth is `n`, and `current` and `seen` each require `O(n)` auxiliary space.<br>
 **Output Space:** *O(n × n!)* <br>
-There are `n!` permutations, each containing `n` elements.* <br>
+There are `n!` permutations, each containing `n` elements. <br>
 **Total Space Complexity:** *O(n × n!)* including the output.
