@@ -113,7 +113,7 @@ class Solution {
 5. No explicit undo/reset is required here because `s[i]` is overwritten by the next choice.
 
 ### Implementation 2
-1, `i` represents the number of positions already decided.
+1. `i` represents the number of positions already decided.
 2. current stores the partial string built so far.
 3. `current.push_back('0')` makes the choice `0`.
 4. `binaryStrings(n, i + 1, current, results)` recursively explores all strings that can be formed after choosing `0`.
