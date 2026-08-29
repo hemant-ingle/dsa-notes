@@ -105,14 +105,14 @@ Array:  │  0 ... i-1   │      i ... j     │
         └──────────────┴──────────────────┘
                          ↑_______________↑
                                  |
-                     prefix[j] - prefix[i-1]
+                    (prefix[j] - prefix[i-1])
 ```
 Think of prefix sum as:
 
 > **"Get a large sum, then remove the part I don't need."**
 
 ## Complexity
-**Preprocessing Time Complexity:** *O(n)*
-**Each Query:** *O(1)*
-**Total Time Complexity:** *O(n + q)*, where `n` is the array size and `q` is the number of queries.
+**Preprocessing Time Complexity:** *O(n)* <br>
+**Each Query:** *O(1)* <br>
+**Total Time Complexity:** *O(n + q)*, where `n` is the array size and `q` is the number of queries. <br>
 **Space Complexity:** *O(n)*
