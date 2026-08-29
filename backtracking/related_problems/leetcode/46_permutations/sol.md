@@ -46,8 +46,8 @@ public:
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> results;
         vector<int> current;
-        unordered_set<int> seen;
-        backtrack(nums, current, seen, results);
+        unordered_set<int> used;
+        backtrack(nums, current, used, results);
         return results;
     }
 };
