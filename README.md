@@ -17,7 +17,7 @@ Chinese Remainder Theorem
 -->
 | 02. | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | Leetcode | `Array; Dynamic Programming` | **Kadane Algorithm** | Maximum Subarray Sum | | [:link:](kadane_algorithm/notes.md) | 🟢 Done |
 | 03. | [Topological Sort](https://www.geeksforgeeks.org/problems/topological-sort/1) | GeeksforGeeks | `Graph` | **Topological Sort - Kahn Algorithm** | | | [:link:](kahn_algorithm/notes.md) | 🟢 Done |
-| 04. | [Cumulative Sum Query](https://www.spoj.com/problems/CSUMQ/) | SPOJ | `Array; Prefix Sum` | **Prefix Sum** | | | [:link:](prefix_sum/notes.md) | 🟢 Done |\
+| 04. | [Cumulative Sum Query](https://www.spoj.com/problems/CSUMQ/) | SPOJ | `Array; Prefix Sum` | **Prefix Sum** | | | [:link:](prefix_sum/notes.md) | 🟢 Done |
 | 05. | | | `Array` | **Difference Array** | | | | |
 <!--
 Two Pointers
