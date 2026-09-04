@@ -12,10 +12,17 @@ Backtracking is a systematic way of exploring all possible choices by building a
 | 03. | **[Permutations](https://leetcode.com/problems/permutations/description/)** | **LeetCode** | [:link:](related_problems/leetcode/46_permutations/sol.md) | 🟡 |
 | 04. | **[Combinations](https://leetcode.com/problems/combinations/description/)** | **LeetCode** | [:link:](related_problems/leetcode/77_combinations/sol.md) | 🟡 |
 | 05. | **[Combination Sum](https://leetcode.com/problems/combination-sum/description/)** | **LeetCode** | [:link:](related_problems/leetcode/39_combination_sum/sol.md) | 🟡 |
-| 06. | **[Maze / Grid Backtracking]()** | **** | [:link:](related_problems/leetcode//sol.md) | 🟡 |
-| 07. | **[Unique Paths](https://leetcode.com/problems/unique-paths/description/)** | **LeetCode** | [:link:](related_problems/leetcode/62_unique_paths/sol.md) | 🟡 |
-| 08. | **[N-Queens](https://leetcode.com/problems/n-queens/description/)** | **LeetCode** | [:link:](related_problems/leetcode/51_n_queens/sol.md) | 🟡 |
-| 09. | **[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)** | **LeetCode** | [:link:](related_problems/leetcode/22_generate_parentheses/sol.md) | 🟡 |
+| 06. | **[Largest number in K swaps](https://www.geeksforgeeks.org/problems/largest-number-in-k-swaps-1587115620/1)** | **GeeksforGeeks** | [:link:](related_problems/geeksforgeeks/largest_number_in_k_swaps/sol.md) | 🟡 |
+| 07. | **[N-Digit Numbers with Increasing Digits](https://www.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/1)** | **GeeksforGeeks** | [:link:](related_problems/geeksforgeeks/n_digit_numbers_with_increasing_digits/sol.md) | 🟡 |
+| 08. | **[Rat in a Maze](https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)** | **GeeksforGeeks** | [:link:](related_problems/geeksforgeeks/rat_in_a_maze/sol.md) | 🟡 |
+| 09. | **[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)** | **LeetCode** | [:link:](related_problems/leetcode/131_palindrome_partitioning/sol.md) | 🟡 |
+| 10. | **[Work Break](https://leetcode.com/problems/word-break/description/)** | **LeetCode** | [:link:](related_problems/leetcode/139_word_break/sol.md) | 🟡 |
+| 11. | **[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)** | **LeetCode** | [:link:](related_problems/leetcode/17_letter_combinations_of_a_phone_number/sol.md) | 🟡 |
+| 12. | **[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)** | **LeetCode** | [:link:](related_problems/leetcode/17_letter_combinations_of_a_phone_number/sol.md) | 🟡 |
+| 13. | **[N-Queens](https://leetcode.com/problems/n-queens/description/)** | **LeetCode** | [:link:](related_problems/leetcode/51_n_queens/sol.md) | 🟡 |
+| 14. | **[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)** | **LeetCode** | [:link:](related_problems/leetcode/37_sudoku_solver/sol.md) | 🟡 |
+| 15. | **[Unique Paths](https://leetcode.com/problems/unique-paths/description/)** | **LeetCode** | [:link:](related_problems/leetcode/62_unique_paths/sol.md) | 🟡 |
+| 16. | **[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)** | **LeetCode** | [:link:](related_problems/leetcode/22_generate_parentheses/sol.md) | 🟡 |
 
 ## Core Idea
 At every position, there are two possible choices:

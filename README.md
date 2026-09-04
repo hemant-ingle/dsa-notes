@@ -204,5 +204,5 @@ Sweep Line
 | 13. | [K-query](https://www.spoj.com/problems/KQUERY/) | SPOJ | `Segment Tree; Range Query; Sorting` | **Merge Sort Tree** | Count elements `> k` by searching sorted node vectors | [CP Algorithms](https://cp-algorithms.com/data_structures/segment_tree.html#saving-the-entire-subarrays-in-each-vertex) | [:link:](merge_sort_tree/notes.md) | 🟡 Review |
 | 14. | | | `Number Theory; Divide and Conquer` | **Binary Exponentiation** | | | | |
 | 15. | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | **LeetCode** | `Hash Map; Doubly Linked List` | **LRU Cache** | `Hash Map` gives O(1) lookup, while `Doubly Linked List` maintains usage order and supports O(1) insertion, removal, and reordering. | | [:link:](lru_cache/notes.md) | 🟡 Review |
-| 16. | | | | **LFU Cache** | | | | |
+| 16. | []() | **LeetCode** | `Hash Map; Doubly Linked List` | **LFU Cache** | | | [:link:](lfu_cache/notes.md) | 🟡 Review |
 | 17. | [Generate all binary strings](https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1) | GeeksforGeeks | `Recursion; Backtacking` | **Backtracking** | | | [:link:](backtracking/notes.md) | 🟡 Review | 
