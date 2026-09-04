@@ -18,11 +18,10 @@ Backtracking is a systematic way of exploring all possible choices by building a
 | 09. | **[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)** | **LeetCode** | [:link:](related_problems/leetcode/131_palindrome_partitioning/sol.md) | 🟡 |
 | 10. | **[Work Break](https://leetcode.com/problems/word-break/description/)** | **LeetCode** | [:link:](related_problems/leetcode/139_word_break/sol.md) | 🟡 |
 | 11. | **[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)** | **LeetCode** | [:link:](related_problems/leetcode/17_letter_combinations_of_a_phone_number/sol.md) | 🟡 |
-| 12. | **[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)** | **LeetCode** | [:link:](related_problems/leetcode/17_letter_combinations_of_a_phone_number/sol.md) | 🟡 |
-| 13. | **[N-Queens](https://leetcode.com/problems/n-queens/description/)** | **LeetCode** | [:link:](related_problems/leetcode/51_n_queens/sol.md) | 🟡 |
-| 14. | **[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)** | **LeetCode** | [:link:](related_problems/leetcode/37_sudoku_solver/sol.md) | 🟡 |
-| 15. | **[Unique Paths](https://leetcode.com/problems/unique-paths/description/)** | **LeetCode** | [:link:](related_problems/leetcode/62_unique_paths/sol.md) | 🟡 |
-| 16. | **[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)** | **LeetCode** | [:link:](related_problems/leetcode/22_generate_parentheses/sol.md) | 🟡 |
+| 12. | **[N-Queens](https://leetcode.com/problems/n-queens/description/)** | **LeetCode** | [:link:](related_problems/leetcode/51_n_queens/sol.md) | 🟡 |
+| 13. | **[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)** | **LeetCode** | [:link:](related_problems/leetcode/37_sudoku_solver/sol.md) | 🟡 |
+| 14. | **[Unique Paths](https://leetcode.com/problems/unique-paths/description/)** | **LeetCode** | [:link:](related_problems/leetcode/62_unique_paths/sol.md) | 🟡 |
+| 15. | **[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)** | **LeetCode** | [:link:](related_problems/leetcode/22_generate_parentheses/sol.md) | 🟡 |
 
 ## Core Idea
 At every position, there are two possible choices:
