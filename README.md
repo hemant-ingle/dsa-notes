@@ -190,19 +190,19 @@ Sweep Line
 | #   | 🧪 Problem | 💻 Platform | 🏷️ Topic | 🧩 Concept | 💡 Insight | 📚 Reference | 📝 Notes | 🔁 Redo |
 |----:|:----------:|:------------:|:--------:|:-----------:|------------|:-------------:|:--------:|:--------:|
 | 01. | | | `Number Theory` | **Euclid GCD** | | [CP Algorithms](https://cp-algorithms.com/algebra/euclid-algorithm.html) | | |
-| 02. | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | Leetcode | `Array; Dynamic Programming` | **Kadane Algorithm** | Maximum Subarray Sum | | [:link:](kadane_algorithm/notes.md) | 🟢 Done |
-| 03. | [Topological Sort](https://www.geeksforgeeks.org/problems/topological-sort/1) | GeeksforGeeks | `Graph` | **Topological Sort - Kahn Algorithm** | | | [:link:](kahn_algorithm/notes.md) | 🟢 Done |
-| 04. | [Cumulative Sum Query](https://www.spoj.com/problems/CSUMQ/) | SPOJ | `Array; Prefix Sum` | **Prefix Sum** | | | [:link:](prefix_sum/notes.md) | 🟢 Done |
+| 02. | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | **Leetcode** | `Array; Dynamic Programming` | **Kadane Algorithm** | Maximum Subarray Sum | | [:link:](kadane_algorithm/notes.md) | 🟢 Done |
+| 03. | [Topological Sort](https://www.geeksforgeeks.org/problems/topological-sort/1) | **GeeksforGeeks** | `Graph` | **Topological Sort - Kahn Algorithm** | | | [:link:](kahn_algorithm/notes.md) | 🟢 Done |
+| 04. | [Cumulative Sum Query](https://www.spoj.com/problems/CSUMQ/) | **SPOJ** | `Array; Prefix Sum` | **Prefix Sum** | | | [:link:](prefix_sum/notes.md) | 🟢 Done |
 | 05. | | | `Array` | **Difference Array** | | | | |
-| 06. | [TDPRIMES - Printing some primes](https://www.spoj.com/problems/TDPRIMES/) | SPOJ | `Number Theory ; Prime Numbers` | **Sieve of Eratosthenes** | | [CP Algorithms](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html) | [:link:](sieve_of_eratosthenes/notes.md) | 🟡 Review |
+| 06. | [TDPRIMES - Printing some primes](https://www.spoj.com/problems/TDPRIMES/) | **SPOJ** | `Number Theory ; Prime Numbers` | **Sieve of Eratosthenes** | | [CP Algorithms](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html) | [:link:](sieve_of_eratosthenes/notes.md) | 🟡 Review |
 | 07. | | | `Divide and Conquer; Sorting` | **Divide and Conquer - Merge Sort** | | | | |
 | 08. | | | `Divide and Conquer; Searching` | **Binary Search** | | | | |
 | 09. | | | `Searching` | **Lower Bound** | | | | |
 | 10. | | | `Searching` | **Upper Bound** | | | | |
 | 11. | | | `String; Tree` | **Trie** | | | | |
-| 12. | [Dynamic Range Sum Queries](https://cses.fi/problemset/task/1648) | CSES | `Tree; Range Query` | **Segment Tree** | | [CP Algorithms](https://cp-algorithms.com/data_structures/segment_tree.html) | [:link:](segment_tree/notes.md) | 🟡 Review |
-| 13. | [K-query](https://www.spoj.com/problems/KQUERY/) | SPOJ | `Segment Tree; Range Query; Sorting` | **Merge Sort Tree** | Count elements `> k` by searching sorted node vectors | [CP Algorithms](https://cp-algorithms.com/data_structures/segment_tree.html#saving-the-entire-subarrays-in-each-vertex) | [:link:](merge_sort_tree/notes.md) | 🟡 Review |
+| 12. | [Dynamic Range Sum Queries](https://cses.fi/problemset/task/1648) | **CSES** | `Tree; Range Query` | **Segment Tree** | | [CP Algorithms](https://cp-algorithms.com/data_structures/segment_tree.html) | [:link:](segment_tree/notes.md) | 🟡 Review |
+| 13. | [K-query](https://www.spoj.com/problems/KQUERY/) | **SPOJ** | `Segment Tree; Range Query; Sorting` | **Merge Sort Tree** | Count elements `> k` by searching sorted node vectors | [CP Algorithms](https://cp-algorithms.com/data_structures/segment_tree.html#saving-the-entire-subarrays-in-each-vertex) | [:link:](merge_sort_tree/notes.md) | 🟡 Review |
 | 14. | | | `Number Theory; Divide and Conquer` | **Binary Exponentiation** | | | | |
 | 15. | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | **LeetCode** | `Hash Map; Doubly Linked List` | **LRU Cache** | `Hash Map` gives O(1) lookup, while `Doubly Linked List` maintains usage order and supports O(1) insertion, removal, and reordering. | | [:link:](lru_cache/notes.md) | 🟡 Review |
 | 16. | []() | **LeetCode** | `Hash Map; Doubly Linked List` | **LFU Cache** | | | [:link:](lfu_cache/notes.md) | 🟡 Review |
-| 17. | [Generate all binary strings](https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1) | GeeksforGeeks | `Recursion; Backtacking` | **Backtracking** | | | [:link:](backtracking/notes.md) | 🟡 Review | 
+| 17. | [Generate all binary strings](https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1) | **GeeksforGeeks** | `Recursion; Backtacking` | **Backtracking** | | | [:link:](backtracking/notes.md) | 🟡 Review | 
