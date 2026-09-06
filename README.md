@@ -6,7 +6,6 @@ Extended Euclidean Algorithm
 Modular Arithmetic
 Fast Modular Exponentiation
 Modular Inverse
-Sieve of Eratosthenes
 Prime Factorization
 Euler's Totient Function
 Fermat's Little Theorem
@@ -16,7 +15,6 @@ Chinese Remainder Theorem
 <!--
 Two Pointers
 Sliding Window
-Dutch National Flag
 Cyclic Sort
 -->
 
@@ -35,11 +33,6 @@ Ternary Search
 -->
 
 <!--
-Backtracking
-All Subsets
-All Permutations
-All Combinations
-Combination Sum
 Grid/Maze Backtracking
 N-Queens
 Constraint Satisfaction
@@ -146,12 +139,8 @@ Digit DP
 -->
 
 <!--
-Prefix Sum
-Difference Array
 Fenwick Tree / BIT
-Segment Tree
 Lazy Propagation
-Merge Sort Tree
 Sparse Table
 Mo's Algorithm
 -->
@@ -205,4 +194,5 @@ Sweep Line
 | 14. | | | `Number Theory; Divide and Conquer` | **Binary Exponentiation** | | | | |
 | 15. | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | **LeetCode** | `Hash Map; Doubly Linked List` | **LRU Cache** | `Hash Map` gives O(1) lookup, while `Doubly Linked List` maintains usage order and supports O(1) insertion, removal, and reordering. | | [:link:](lru_cache/notes.md) | 🟡 Review |
 | 16. | []() | **LeetCode** | `Hash Map; Doubly Linked List` | **LFU Cache** | | | [:link:](lfu_cache/notes.md) | 🟡 Review |
-| 17. | [Generate all binary strings](https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1) | **GeeksforGeeks** | `Recursion; Backtacking` | **Backtracking** | | | [:link:](backtracking/notes.md) | 🟡 Review | 
+| 17. | [Generate all binary strings](https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1) | **GeeksforGeeks** | `Recursion; Backtacking` | **Backtracking** | | | [:link:](backtracking/notes.md) | 🟡 Review |
+| 18. | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | **LeetCode** | `Two Pointer` | **Dutch National Flag Algorithm / Three-Way  Partitioning** | Partition into `< mid`, `= mid`, and `> mid` in one pass using three pointers. | [Wikipedia](https://en.wikipedia.org/wiki/Dutch_national_flag_problem) | [:link:](dutch_national_flag_algorithm/notes.md) | 🟡 Review |
