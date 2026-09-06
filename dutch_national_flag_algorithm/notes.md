@@ -92,5 +92,5 @@ At every iteration:
 The algorithm's job is simply to **shrink the unknown region** [j, k] until it becomes empty.
 
 ## Complexity
-**Time Complexity**: *O(n)*
+**Time Complexity**: *O(n)* <br>
 **Space Complexity**: *O(1)*
