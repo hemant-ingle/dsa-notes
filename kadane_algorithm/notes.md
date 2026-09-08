@@ -131,10 +131,10 @@ int curr = nums[0];
 This ensures that at least one element is selected.
 
 ## Empty Subarray — Quick Rule
-|         Condition          | `curr`  | `best`  |	 All-negative input   |
-|:---------------------------|--------:|--------:|-----------------------:|
-| Empty subarray NOT allowed | nums[0] | nums[0] | Maximum negative value |
-| Empty subarray allowed     | 0       | 0       | 0                      |
+|         Condition          |  `curr`   |  `best`   |	 All-negative input   |
+|:---------------------------|----------:|----------:|-----------------------:|
+| Empty subarray NOT allowed | `nums[0]` | `nums[0]` | Maximum negative value |
+| Empty subarray allowed     | `0`       | `0`       | `0`                    |
 
 **Example**
 ```
