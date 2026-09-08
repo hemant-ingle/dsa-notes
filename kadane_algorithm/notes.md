@@ -28,15 +28,34 @@ The recurrence is: ***curr = max(x, curr + x)***
 
 If the previous curr is negative, extending it only makes the sum smaller, so we start a new subarray.
 
-## Implementation (Classic Problem)
+## Implementation
+
+### Implementation 1 (Classic Problem) - Empty Subarray **NOT** Allowed
+Use this when the subarray must contain **at least one element.**
 ```cpp
 class Solution {
 private:
-    const int INF = 1e9;
 public:
     int maxSubArray(vector<int>& nums) {
-        if(nums.size() == 0) return 0;
-        int best = -INF;
+        int best = nums[0];
+        int curr = nums[0];
+        for(int i=1; i<nums.size(); i++) {
+            curr = max(nums[i], curr + nums[i]);
+            best = max(best, curr);
+        }
+        return best;
+    }
+};
+```
+
+### Implementation 2 - Empty Subarray Allowed
+Use this when choosing **no element** is allowed.
+```cpp
+class Solution {
+private:
+public:
+    int maxSubArray(vector<int>& nums) {
+        int best = 0;
         int curr = 0;
         for(int x: nums) {
             curr = max(x, curr + x);
@@ -55,9 +74,14 @@ It answers:
 > Should I continue the previous subarray or start a new subarray here?
 
 2. ```best = max(best, curr)```
-curr represents the best subarray ending here, while best represents the best subarray seen anywhere so far
+curr represents the best subarray ending at the current position, while best represents the best subarray seen anywhere so far
 
 3. Why `curr` starts at `0`
+In Implementation 2
+```cpp
+int curr = 0;
+``
+
 This works because the first iteration computes:
 ```cpp
 curr = max(nums[0], 0 + nums[0]);
@@ -66,26 +90,64 @@ which becomes:
 ```cpp
 curr = nums[0];
 ```
-So the implementation also correctly handles all-negative arrays.
+So the first element is handled correctly.
+
+4. Why `best` starts at `0` when empty subarray is allowed
+If the empty subarray is allowed, the answer can never be less than `0`.
 
 For example:
 ```
 [-5, -2, -8]
-
-curr:
--5 → -2 → -8
-
-best = -2
 ```
+The best non-empty subarray is `[-2]` with sum `-2`.
 
-4. Why `best` starts at `-INF`
-We cannot initialize best to 0, because the answer can be negative.
+But because the empty subarray is allowed:
+```
+answer = 0
+```
+Therefore:
+```
+int best = 0;
+```
+is appropriate.
+
+5. Why best starts at `nums[0]` when empty subarray is NOT allowed
+
+If the subarray must contain at least one element, initializing `best` to `0` would be incorrect for an all-negative array.
 
 For:
 ```
 [-5, -2, -8]
 ```
-he correct answer is `-2` not `0`.
+the correct answer is:
+```
+-2
+```
+Therefore, we initialize:
+```
+int best = nums[0];
+int curr = nums[0];
+```
+This ensures that at least one element is selected.
+
+## Empty Subarray — Quick Rule
+|         Condition          | `curr`  | `best`  |	 All-negative input   |
+|:---------------------------|--------:|--------:|-----------------------:|
+| Empty subarray NOT allowed | nums[0] | nums[0] | Maximum negative value |
+| Empty subarray allowed     | 0       | 0       | 0                      |
+
+**Example**
+```
+nums = [-5, -2, -8]
+
+Empty not allowed:
+
+answer = -2
+
+Empty allowed:
+
+answer = 0
+```
 
 ## Complexity
 **Time Complexity**: *O(n)* <br>
