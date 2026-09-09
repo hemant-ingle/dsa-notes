@@ -1,5 +1,8 @@
 # Segment Tree
 
+
+"Segment Tree is a data structure that can be constructed using the Divide and Conquer paradigm to efficiently answer range queries and support updates."
+
 # Classic Problem: 
 **[Dynamic Range Sum Queries (CSES)](https://cses.fi/problemset/task/1648/)**
 
