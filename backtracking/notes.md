@@ -5,7 +5,7 @@ Backtracking is a systematic way of exploring all possible choices by building a
 **[ Generate all binary strings (GeeksforGeeks)](https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1)**
 
 ## Related Problems
-| #   | Problem | Platform | Solution | Redo |
+| **#**   | **Problem** | **Platform** | **Solution** | **Redo** |
 |----:|:-------:|:--------:|:--------:|:----:|
 | 01. | **[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)** | **LeetCode** | [:link:](related_problems/leetcode/3211_generate_binary_strings_without_adjacent_zeros/sol.md) | 🟡 |
 | 02. | **[Subsets](https://leetcode.com/problems/subsets/description/)** | **LeetCode** | [:link:](related_problems/leetcode/78_subsets/sol.md) | 🟡 |
