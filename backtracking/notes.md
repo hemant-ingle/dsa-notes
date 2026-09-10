@@ -2,12 +2,12 @@
 Backtracking is a systematic way of exploring all possible choices by building a solution step by step. At each step, we make a choice, recursively explore the resulting state, and then undo the previous choice before trying the next choice.
 
 ## Classic Problem 
-**[ Generate all binary strings (GeeksforGeeks)](https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1)**
+**[:star_struck: Generate all binary strings (GeeksforGeeks)](https://www.geeksforgeeks.org/problems/generate-all-binary-strings/1)**
 
 ## Related Problems
 | **#**   | **Problem** | **Platform** | **Solution** | **Redo** |
 |----:|:-------:|:--------:|:--------:|:----:|
-| 01. | **[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)** | **LeetCode** | [:link:](related_problems/leetcode/3211_generate_binary_strings_without_adjacent_zeros/sol.md) | 🟡 |
+| :star_struck: 01. | **[Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/)** | **LeetCode** | [:link:](related_problems/leetcode/3211_generate_binary_strings_without_adjacent_zeros/sol.md) | 🟡 |
 | 02. | **[Subsets](https://leetcode.com/problems/subsets/description/)** | **LeetCode** | [:link:](related_problems/leetcode/78_subsets/sol.md) | 🟡 |
 | 03. | **[Permutations](https://leetcode.com/problems/permutations/description/)** | **LeetCode** | [:link:](related_problems/leetcode/46_permutations/sol.md) | 🟡 |
 | 04. | **[Combinations](https://leetcode.com/problems/combinations/description/)** | **LeetCode** | [:link:](related_problems/leetcode/77_combinations/sol.md) | 🟡 |
