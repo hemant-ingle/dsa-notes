@@ -1,6 +1,6 @@
 # [←](/backtracking/notes.md) [Permutations](https://leetcode.com/problems/permutations/description/)
 
-## Backtracking Flow
+## Backtracking Flow - Approach 1
 
 `choices` :arrow_right: `constraint` :arrow_right: `make choice`:arrow_right: `recurse` :arrow_right: `undo choice`
 
@@ -14,7 +14,7 @@ undo choice → remove the element from current mark the element as unused
 ```
 
 
-## Solution
+## Solution - Approach 1
 ```cpp
 class Solution {
 private:
@@ -48,6 +48,31 @@ public:
         vector<int> current;
         unordered_set<int> used;
         backtrack(nums, current, used, results);
+        return results;
+    }
+};
+```
+
+## Solution - Approach 2
+```cpp
+class Solution {
+private:
+    void permute(vector<int> &nums, int start, vector<vector<int>> &results) {
+        if(start == nums.size()) {
+            results.push_back(nums);
+            return;
+        }
+
+        for(int i=start; i<nums.size(); i++) {
+            swap(nums[i], nums[start]);
+            permute(nums, start + 1, results);
+            swap(nums[i], nums[start]);
+        }
+    }
+public:
+    vector<vector<int>> permute(vector<int>& nums) {
+        vector<vector<int>> results;
+        permute(nums, 0, results);
         return results;
     }
 };
