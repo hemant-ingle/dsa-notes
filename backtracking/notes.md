@@ -20,7 +20,7 @@ Backtracking is a systematic way of exploring all possible choices by building a
 | 11. | **[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)** | **LeetCode** | [:link:](related_problems/leetcode/17_letter_combinations_of_a_phone_number/sol.md) | 🟡 |
 | 12. | **[N-Queens](https://leetcode.com/problems/n-queens/description/)** | **LeetCode** | [:link:](related_problems/leetcode/51_n_queens/sol.md) | 🟡 |
 | 13. | **[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)** | **LeetCode** | [:link:](related_problems/leetcode/37_sudoku_solver/sol.md) | 🟡 |
-| 14. | **[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)** | **LeetCode** | [:link:](related_problems/leetcode/22_generate_parentheses/sol.md) | 🟡 |
+| :star_struck: 14. | **[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)** | **LeetCode** | [:link:](related_problems/leetcode/22_generate_parentheses/sol.md) | 🟡 |
 
 ## Core Idea
 At every position, there are two possible choices:
